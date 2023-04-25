@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="What movie can you see?">
+  <meta name="keywords" content="immaculata, ics2o">
+  <meta name="author" content="Theo Rafuse">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+  <link rel="manifest" href="./fav/site.webmanifest">
+  <link rel="shortcut icon" href="./images/empty-theater.webp">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>What movie can you see?</title>
+</head>
+
+<body>
+  <script src="./js/script.js"></script>
+  <h1>What Movies Can You See?</h1>
+  <img src="./images/movie-tickets.WEBP" alt="E" width="1000">
+  <!-- This is the code for finding out what kind of movie you can see by yourself -->
+  <p>
+  <h3>Please Input your Age:</h3>
+  <form action="javascript:submitUserAge()">
+    <label for="age-info">Your Age:</label>
+    <input type="number" id="age-info" placeholder="Age" step="0" required=true><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  </p>
+  <!-- Create a space where the user information will be displayed -->
+  <div id="movie-type"></div>
+  <p></p>
+
+</body>
+
+</html>
